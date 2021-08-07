@@ -1,7 +1,9 @@
 {
-    "azureFunctions.deploySubpath": "Api/bin/Release/netcoreapp3.1/publish",
-    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.projectLanguage": "Custom",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "appService.defaultWebAppToDeploy": "/subscriptions/5b48f935-8998-4271-8ff8-dbfc1dcf3809/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/my-static-blazor-app",
+    "appService.deploySubpath": "Client"
 }
